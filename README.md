@@ -1,9 +1,17 @@
-# Project Name
+# Emerald Salary Calculator
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+Salary calculator that collects input and display it on the DOM.
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+- [x] Add our HTML, JS, jQuery to the project
+- [x] HTML form to collect employee name
+- [x] HTML table to display employee names
+- [ ] On submit add the employee name to the table
+- [ ] Add other fields into the form
+- [ ] Append additional fields to the page
+- [ ] Create a variable for total monthly and add to that variable on submit
+- [ ] Display total monthly on the DOM
+- [ ] Update styling when the value is over 20,000 monthly
+- [ ] Delete button that removes the row from the table
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).

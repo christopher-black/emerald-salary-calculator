@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator</title>
+    <script src="vendors/jquery.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+<body>
+    <div id="container">
+        <form id="employee-form">
+            Name: <input id="employee-name" type="text" /><br/>
+            <!-- TODO: Add more fields -->
+            <!-- Buttons submit forms by default unless it's type="button" -->
+            <!-- <button type="button">+</button> -->
+            <button id="submit-btn">Submit</button>
+        </form>
+
+        <h2>Employees</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <!-- TODO: Other fields -->
+                </tr>
+            </thead>
+            <tbody id="employee-data">
+                <tr>
+                    <td>Emma</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
