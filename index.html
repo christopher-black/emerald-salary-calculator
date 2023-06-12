@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salary Calculator</title>
     <script src="vendors/jquery.js"></script>
-    <script src="scripts/client.js"></script>
+    <script src="scripts/client.js" defer></script>
 </head>
 <body>
     <div id="container">
         <form id="employee-form">
-            Name: <input id="employee-name" type="text" /><br/>
-            <!-- TODO: Add more fields -->
+            Name: <input value="a" id="employee-name" type="text" /><br/>
+            Last Name: <input value="b" id="employee-last" type="text" /><br />
+            ID: <input value="1" id="employee-id" type="number" /><br />
+            Title: <input value="c" id="employee-title" /><br />
+            Annual Salary: <input value="70000" id="employee-salary" /><br />
             <!-- Buttons submit forms by default unless it's type="button" -->
             <!-- <button type="button">+</button> -->
             <button id="submit-btn">Submit</button>
@@ -23,15 +26,19 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <!-- TODO: Other fields -->
+                    <th>Last</th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Annual Salary</th>
                 </tr>
             </thead>
             <tbody id="employee-data">
-                <tr>
-                    <td>Emma</td>
-                </tr>
+                <!-- This is where our data will be appended -->
             </tbody>
         </table>
+        <div id="monthly-total">
+            Monthly total: <span id="total-dollar">$0</span>
+        </div>
     </div>
 </body>
 </html>
